@@ -75,6 +75,7 @@ namespace BookingApp
 
                 // add loaded rooms to the current list
                 rooms.AddRange(loadedRooms);
+                rooms.Add(new _3DRoom("3D", 5, 7));
             }
             else
             {
